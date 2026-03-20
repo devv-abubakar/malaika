@@ -45,11 +45,6 @@
             to { transform: translateY(0); opacity: 1; }
         }
 
-        @keyframes sway {
-            0%, 100% { transform: translateX(0); }
-            50% { transform: translateX(20px); }
-        }
-
         /* --- BACKGROUND STARS --- */
         .stars {
             position: fixed;
@@ -186,27 +181,27 @@
     <section>
         <div class="moon"></div>
         <h1 class="hidden">Chand Raat Mubarak, Malaika! ✨</h1>
-        <p class="hidden">Asman par chand nikal aya hai, aur main soch raha tha ke main kitna lucky hoon ke mujhe aap jaisi behan mili. Kal Eid hai, socha advance mein wish kar dun.</p>
+        <p class="hidden">Asman par chand nikal aya hai, aur main soch raha tha ke apni sab se achi dost ko wish kar dun. Kal Eid hai, aur aapse baat kiye bina meri Eid adhuri hai.</p>
         <div class="scroll-down">👇</div>
     </section>
 
     <section>
-        <h1 class="hidden">Waqt Kitni Jaldi Guzar Gaya 🕰️</h1>
-        <p class="hidden">Pata hi nahi chala life itni jaldi guzar gayi... Aap choti hoti thi, aur ab <span class="highlight">MashaAllah itni bari ho gayi hain</span> ke ab aapki shadi bhi nazdeek hai.</p>
-        <p class="hidden">Aap meri behan bhi hain aur meri best friend bhi. Main wakai bohat khush naseeb hoon.</p>
+        <h1 class="hidden">Sachi Dosti 💫</h1>
+        <p class="hidden">Zindagi mein kuch log aise hote hain jinse mil kar lagta hai ke inko toh bachpan se janna chahiye tha. Aap bilkul waisi hi hain.</p>
+        <p class="hidden">Aapki dosti mere liye <span class="highlight">bohat khas hai</span>. Aapke sath baatein karna aur waqt guzarna hamesha bohat acha lagta hai.</p>
     </section>
 
     <section>
-        <h1 class="hidden">Bhai Ki Feelings 🥺</h1>
-        <p class="hidden">Main toh abhi se soch soch ke sad ho jata hoon ke shadi ke baad aapko <span class="highlight">kitna zyada miss karunga</span>.</p>
-        <p class="hidden">Lekin kya karein, majboori hoti hai, behno ko ek din shadi kar ke jana hi hota hai...</p>
+        <h1 class="hidden">Hamari Memories 🌸</h1>
+        <p class="hidden">Hamari sari chats, hansi mazaq, aur wo choti choti baatein mujhe hamesha yaad rehti hain.</p>
+        <p class="hidden">Main hamesha dua karta hoon ke hamari yeh pyari si dosti aur understanding waqt ke sath <span class="highlight">aur bhi strong ho jaye</span>.</p>
     </section>
 
     <section>
-        <h1 class="hidden">Meri Dua 🤲</h1>
-        <p class="hidden">Is Chand Raat par meri yahi dua hai ke aap hamesha khush rahein, aabad rahein.</p>
-        <p class="hidden">Aur hum isi tarha <span class="highlight">hamesha ache dost ban kar rahein. Ameen!</span></p>
-        <button class="wish-btn hidden" onclick="triggerConfetti()">Eid Mubarak! 🎉</button>
+        <h1 class="hidden">Hamesha Khush Raho 🤲</h1>
+        <p class="hidden">Is Chand Raat par chand ko dekhte hue meri bas yahi dua hai...</p>
+        <p class="hidden">Ke aapki zindagi mein dheron khushiyan aayen aur aap hamesha isi tarha hansti muskurati rahein. Hum future mein bhi <span class="highlight">hamesha ache dost ban kar rahein</span>.</p>
+        <button class="wish-btn hidden" onclick="triggerConfetti()">Eid Mubarak Advance Mein! 🎉</button>
     </section>
 
     <script>
@@ -226,7 +221,7 @@
 
         // 2. Generate Floating Memory Stickers (Emojis as stickers)
         const stickersContainer = document.getElementById('stickers-container');
-        const stickers = ['💖', '🌙', '✨', '🥺', '🦋', '🌸', '💫', '💌', '🥰', '🎈', '😭']; // Added a little emotional emoji
+        const stickers = ['💖', '🌙', '✨', '😂', '🦋', '🌸', '💫', '💌', '✌️', '🎈', '🍫']; 
         
         for (let i = 0; i < 40; i++) {
             let sticker = document.createElement('div');
@@ -263,7 +258,7 @@
                 document.body.appendChild(conf);
                 setTimeout(() => conf.remove(), 2000);
             }
-            alert("Chand Raat aur Eid bohat bohat Mubarak ho Malaika! Khush raho hamesha. - Dudu");
+            alert("Chand Raat aur Eid bohat bohat Mubarak ho dost! Khush rahein hamesha. - Dudu");
         }
     </script>
 </body>
